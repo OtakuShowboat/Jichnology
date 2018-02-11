@@ -67,7 +67,7 @@ a, a:hover, a:active {
 }
 
 a:hover, a:active {
-	color: #fff;
+	color: #000;
 }
 
 .content {  
@@ -147,9 +147,13 @@ a:hover, a:active {
   
 }
 
-
+.main-nav a:hover {
+  color: #fff;
+  
+}
 
 .container {
+  align-items: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh;  
@@ -158,7 +162,7 @@ a:hover, a:active {
 
 .main-content {
   flex: 1 1 0;
-  width: 100%; 
+  max-width: 1200px; 
 }
 
 
@@ -180,6 +184,7 @@ a:hover, a:active {
 .flex-list {
   
   display: flex;
+  flex-wrap: wrap;
   
 }
 
@@ -187,12 +192,6 @@ a:hover, a:active {
   
   font-size: 1.75rem;
   
-  
-}
-
-.flex-list a:hover {
-  
-  color: #000;
   
 }
 
