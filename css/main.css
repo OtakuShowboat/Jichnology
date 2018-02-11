@@ -55,51 +55,64 @@ a img {
 }
 
 html, body {
-  font-family: "Helvetica", sans-serif;
+  font-family: sans-serif;
   font-size: 1rem;
   line-height: 1.2rem;
   height: 100%;
     
 }
 
+.content {  
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
 .content h3 {
-  padding: 3vh 0;
+  line-height: 3rem;
   font-size: 2.5rem;
-  
 }
 
 .hero {
   background: #999;
-  height: 30vh;
+  color: #fff;
+  font-family: 'OptimaBold';
+  height: 25vh;
   padding-top: 10vh;
-  width: 100vw;
   text-align: center;
+  width: 100vw;
+
 }
 
 .hero h1 {
+  
   font-size: 3rem;
   font-weight: bold;
+
 }
 
 .hero h3 {
   padding-top: 3vh;
   padding-bottom: 1vh;
   font-size: 2rem;
+
 }
 
-.img-wrapper{
+.hero img{
   display: inline-block;
-  margin-top: 1vh;
-  width: 100vw;
+/*  float: left;*/
+  margin-left: 0;
   
 }
 
 .main-nav {
-  font-family: 'OptimaBold';
+
+  
   height: 10vh;
   position: fixed;
   text-align: center;
-  width: 100vw;
+  width: 100%;
+  
   
 }
 
@@ -122,7 +135,7 @@ html, body {
 
 .main-nav a {
   color: #999;
-  font-size: 1.5vw;
+  font-size: 1rem;
   
 }
 
@@ -142,9 +155,7 @@ a, a:hover, a:active {
   width: 100%; 
 }
 
-.content {  
-  padding: 1vw;
-}
+
 
 .footer {	
   background-color: #999;
@@ -166,6 +177,18 @@ a, a:hover, a:active {
   
 }
 
+.flex-list h3 {
+  
+  font-size: 1.75rem;
+  
+  
+}
+
+.flex-list a:hover {
+  
+  color: #000;
+  
+}
 
 #contentContainer {
 	border-width: 1px;
@@ -182,7 +205,11 @@ a, a:hover, a:active {
 	height:15px;
 }
 
-
+.inverts, .plants, .vertebrates {
+  
+  flex: 1;
+  
+}
 
 a:hover, a:active {
 	color: #fff;
