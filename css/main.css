@@ -1,0 +1,244 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+strong, b {
+  font-weight: bold;
+}
+em, i {
+  font-style: italic;
+}
+a img {
+  border: none;
+}
+/* END RESET*/
+
+
+/* GLOBAL SYTLES */
+
+@font-face {
+  font-family: 'OptimaBold';
+  src: url('/fonts/optima-lt-std-bold-58c09049baa14.otf'); /* IE9 Compat Modes */
+}
+
+html, body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  height: 100%;
+    
+}
+
+.content h3 {
+  padding: 3vh 0;
+  font-size: 2.5rem;
+  
+}
+
+.hero {
+  background: #999;
+  height: 30vh;
+  padding-top: 10vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero h3 {
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+  font-size: 2rem;
+}
+
+.img-wrapper{
+  display: inline-block;
+  margin-top: 1vh;
+  width: 100vw;
+  
+}
+
+.main-nav {
+  font-family: 'OptimaBold';
+  height: 10vh;
+  position: fixed;
+  text-align: center;
+  width: 100vw;
+  
+}
+
+.main-nav ul {
+  background: #444;
+  list-style: none;
+  
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 2vh 5px;
+}
+
+.main-nav li ~ li {
+  
+  border-left: 2px solid rgba(255, 255, 255, 0.2)
+  
+}
+
+.main-nav a {
+  color: #999;
+  font-size: 1.5vw;
+  
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  
+}
+
+
+.main-content {
+  flex: 1 1 0;
+  width: 100%; 
+}
+
+.content {  
+  padding: 1vw;
+}
+
+.footer {	
+  background-color: #999;
+	color: #000;
+  height: 10vh;
+	padding: 0;
+	width: 100%;
+}
+
+.footer p {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10vh;
+}
+
+.flex-list {
+  
+  display: flex;
+  
+}
+
+
+#contentContainer {
+	border-width: 1px;
+
+	z-index: 2;
+}
+
+#contentContainer #content {
+	padding: 15px;
+}
+
+#hidden {
+	visibility: hidden;
+	height:15px;
+}
+
+
+
+a:hover, a:active {
+	color: #fff;
+}
+		
+#pageHeader {
+	background-color: #999999;
+	border-bottom-color: #999999;
+}
+
+
+#pageHeader h1 {
+	color: #FFFFFF;
+}
+		
+#pageHeader h2,
+{
+	color: #FFFFFF;
+}
+
+
+.sidenav {
+	width: 100%;
+	font-size: 14px;
+    z-index: 1; /* Stay on top */
+    
+    overflow-x: hidden; /* Disable horizontal scroll */
+
+	overflow-y:auto;
+
+
+}
+
+.sidenav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.contentTraces, .contentAbout {
+	margin-left: 18%;
+	min-height: 600px;
+}
+/* The navigation menu links */
+
+.sidenav a {
+    color: #326EA1;
+	word-break: break-all;
+	hyphens: auto;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #000000;
+}
+
+a.black {
+	text-decoration: none;
+	color: black;
+}
