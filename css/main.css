@@ -62,6 +62,14 @@ html, body {
     
 }
 
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #fff;
+}
+
 .content {  
   padding: 1rem;
   box-sizing: border-box;
@@ -139,9 +147,7 @@ html, body {
   
 }
 
-a, a:hover, a:active {
-	text-decoration: none;
-}
+
 
 .container {
   display: flex;
@@ -190,80 +196,12 @@ a, a:hover, a:active {
   
 }
 
-#contentContainer {
-	border-width: 1px;
-
-	z-index: 2;
-}
-
-#contentContainer #content {
-	padding: 15px;
-}
-
-#hidden {
-	visibility: hidden;
-	height:15px;
-}
-
 .inverts, .plants, .vertebrates {
   
   flex: 1;
   
 }
 
-a:hover, a:active {
-	color: #fff;
-}
-		
-#pageHeader {
-	background-color: #999999;
-	border-bottom-color: #999999;
-}
-
-
-#pageHeader h1 {
-	color: #FFFFFF;
-}
-		
-#pageHeader h2,
-{
-	color: #FFFFFF;
-}
-
-
-.sidenav {
-	width: 100%;
-	font-size: 14px;
-    z-index: 1; /* Stay on top */
-    
-    overflow-x: hidden; /* Disable horizontal scroll */
-
-	overflow-y:auto;
-
-
-}
-
-.sidenav ul {
-	list-style-type: none;
-	padding: 0;
-}
-
-.contentTraces, .contentAbout {
-	margin-left: 18%;
-	min-height: 600px;
-}
-/* The navigation menu links */
-
-.sidenav a {
-    color: #326EA1;
-	word-break: break-all;
-	hyphens: auto;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
-    color: #000000;
-}
 
 a.black {
 	text-decoration: none;
