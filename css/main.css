@@ -82,34 +82,54 @@ a:hover, a:active {
 }
 
 .hero {
+  align-content: center;
   background: #999;
+  box-sizing: border-box;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   font-family: 'OptimaBold';
-  height: 25vh;
+  height: 35vh;
+  justify-content: center;
   padding-top: 10vh;
-  text-align: center;
   width: 100vw;
 
 }
 
+.hero-text {
+  flex: 0 1 auto;
+  text-align: center;
+  
+}
+
+.hero-image {
+  flex: 1;
+ 
+}
+
 .hero h1 {
   
+
   font-size: 3rem;
   font-weight: bold;
-
+  
 }
 
 .hero h3 {
+  
+
+  font-size: 2rem;
   padding-top: 3vh;
   padding-bottom: 1vh;
-  font-size: 2rem;
+  
 
 }
 
 .hero img{
   display: inline-block;
-/*  float: left;*/
-  margin-left: 0;
+  height: 15vh;
+  margin-right: 0%;
   
 }
 
