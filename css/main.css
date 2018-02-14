@@ -141,7 +141,7 @@ a:hover, a:active {
   box-sizing: border-box;
   height: 10vh;
   padding: 0;
-  position: absolute;
+  position: fixed;
   text-align: center;
   margin: 0;
   width: 100vw;
