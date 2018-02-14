@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% include head.html %}
+  <title>Home - KU Ichnology</title>
+</head>
+
+<body class="container">
+
+    <div class="header"> {% include header.html %} </div>
+    <div class="main-content main-wrapper">
+
+      <div class="sidebar">{% include conceptsnav.html %}</div>
+      <div class="content">{{ content }}</div>
+
+    </div>
+    <div class="footer"> {% include footer.html %} </div>
+
+</body>  
+</html>
